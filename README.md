@@ -3,7 +3,7 @@
 An intelligent CRM dashboard built for Life Science Field Representatives to log interactions with Healthcare Professionals (HCPs) using a premium Web UI and a LangGraph-powered conversational agent.
 
 ## Core Features
-1.  **Dual UI Setup**: A beautiful split-screen interface displaying both a classical structured form and an advanced Conversational Chat AI side-by-side.
+1.  **Dual UI Setup**: A beautiful split-screen interface displaying both a classical structured form and an advanced Conversational Chat AI side-by-side
 2.  **LangGraph AI Agent**: The backbone of the interaction. The agent has been equipped with 5 tools:
     *   `log_interaction`: Formally records the context into the DB.
     *   `edit_interaction`: Modifies an already logged event.
@@ -56,9 +56,3 @@ When using the interface, try typing these prompts into the AI to invoke the Lan
 1.  *"Get the history for Dr. House."* -> **Invokes `search_hcp_history`**
 2.  *"I just met with Dr. House. He showed a high intent level for our new drug format. Can you log this In-Person interaction?"* -> **Invokes `log_interaction`**
 3.  *"Wait, change the intent level of that last interaction to Medium."* -> **Invokes `edit_interaction`**
-4.  *"Schedule a follow up for 7 days from now to give him the new samples."* -> **Invokes `schedule_follow_up`**
-
-## Technologies Used
-- LLM: `llama-3.3-70b-versatile` via **Groq**
-- Framework: **LangGraph**, **FastAPI**, **React**
-- State Management: **Redux**
