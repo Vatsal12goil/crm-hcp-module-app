@@ -56,3 +56,16 @@ When using the interface, try typing these prompts into the AI to invoke the Lan
 1.  *"Get the history for Dr. House."* -> **Invokes `search_hcp_history`**
 2.  *"I just met with Dr. House. He showed a high intent level for our new drug format. Can you log this In-Person interaction?"* -> **Invokes `log_interaction`**
 3.  *"Wait, change the intent level of that last interaction to Medium."* -> **Invokes `edit_interaction`**
+4.  *"Schedule a follow up for 7 days from now to give him the new samples."* -> **Invokes `schedule_follow_up`**
+
+## Technologies Used
+- LLM: `llama-3.3-70b-versatile` via **Groq**
+- Framework: **LangGraph**, **FastAPI**, **React**
+- State Management: **Redux**
+
+
+**Deployment Status**
+* 1.) Backend: https://company-backend-1-916i.onrender.com
+* 2.) Front-End: https://aicrmproject-jc2dnkt9k-vatsals-projects-68d115a9.vercel.app/
+
+
